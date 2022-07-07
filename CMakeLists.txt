@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.13)
 
 set(SDK_LOCATION ${CMAKE_CURRENT_SOURCE_DIR}/gecko_sdk)
-#set(SDK_LOCATION /mnt/c/Users/adeck/SimplicityStudio/SDKs/gecko_sdk
 
 # Optional verbose mode, uncomment or pass in -DCMAKE_VERBOSE_MAKEFILE=ON
 set(CMAKE_VERBOSE_MAKEFILE ON)
