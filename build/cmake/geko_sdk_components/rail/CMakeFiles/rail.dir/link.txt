@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc librail.a "CMakeFiles/rail.dir/__/__/__/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_conversions_efr32.c.obj" CMakeFiles/rail.dir/__/__/__/gecko_sdk/platform/radio/rail_lib/plugin/rail_util_pti/sl_rail_util_pti.c.obj "CMakeFiles/rail.dir/__/__/__/gecko_sdk/platform/radio/rail_lib/plugin/pa-conversions/pa_curves_efr32.c.obj"
-/usr/bin/arm-none-eabi-ranlib librail.a

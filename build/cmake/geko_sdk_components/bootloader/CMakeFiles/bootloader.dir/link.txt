@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libbootloader.a CMakeFiles/bootloader.dir/__/__/__/gecko_sdk/platform/bootloader/api/btl_interface_storage.c.obj CMakeFiles/bootloader.dir/__/__/__/gecko_sdk/platform/bootloader/api/btl_interface.c.obj CMakeFiles/bootloader.dir/__/__/__/gecko_sdk/platform/bootloader/app_properties/app_properties.c.obj
-/usr/bin/arm-none-eabi-ranlib libbootloader.a

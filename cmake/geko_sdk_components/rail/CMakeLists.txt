@@ -1,12 +1,3 @@
-# Adds the protocols
-#
-# Copyright (c) 2022 Decker Technologies - All Rights Reserved
-# Unauthorized copying of this file, via any medium is strictly prohibited
-# Proprietary and confidential
-#
-# Author: Aaron Decker
-# Date: June 26, 2022
-
 project(rail)
 
 

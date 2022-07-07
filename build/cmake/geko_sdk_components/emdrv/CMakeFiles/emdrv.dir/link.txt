@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libemdrv.a CMakeFiles/emdrv.dir/__/__/__/gecko_sdk/platform/emdrv/nvm3/src/nvm3_default_common_linker.c.obj CMakeFiles/emdrv.dir/__/__/__/gecko_sdk/platform/emdrv/nvm3/src/nvm3_hal_flash.c.obj CMakeFiles/emdrv.dir/__/__/__/gecko_sdk/platform/emdrv/nvm3/src/nvm3_lock.c.obj
-/usr/bin/arm-none-eabi-ranlib libemdrv.a

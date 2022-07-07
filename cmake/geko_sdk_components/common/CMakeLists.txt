@@ -1,4 +1,3 @@
-
 project(slcommon)
 
 add_library(${PROJECT_NAME} 

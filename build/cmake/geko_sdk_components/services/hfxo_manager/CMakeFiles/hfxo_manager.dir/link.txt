@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libhfxo_manager.a CMakeFiles/hfxo_manager.dir/__/__/__/__/gecko_sdk/platform/service/hfxo_manager/src/sl_hfxo_manager.c.obj CMakeFiles/hfxo_manager.dir/__/__/__/__/gecko_sdk/platform/service/hfxo_manager/src/sl_hfxo_manager_hal_s2.c.obj
-/usr/bin/arm-none-eabi-ranlib libhfxo_manager.a

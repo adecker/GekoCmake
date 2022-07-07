@@ -1,12 +1,3 @@
-# Adds the power manager service
-#
-# Copyright (c) 2022 Decker Technologies - All Rights Reserved
-# Unauthorized copying of this file, via any medium is strictly prohibited
-# Proprietary and confidential
-#
-# Author: Aaron Decker
-# Date: June 26, 2022
-
 project(power_manager)
 
 add_library(${PROJECT_NAME} 

@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libsystem.a CMakeFiles/system.dir/__/__/__/__/gecko_sdk/platform/service/system/src/sl_system_init.c.obj CMakeFiles/system.dir/__/__/__/__/gecko_sdk/platform/service/system/src/sl_system_process_action.c.obj
-/usr/bin/arm-none-eabi-ranlib libsystem.a

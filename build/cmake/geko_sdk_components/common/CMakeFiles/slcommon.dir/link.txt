@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libslcommon.a CMakeFiles/slcommon.dir/__/__/__/gecko_sdk/platform/common/src/sl_assert.c.obj CMakeFiles/slcommon.dir/__/__/__/gecko_sdk/platform/common/src/sl_slist.c.obj CMakeFiles/slcommon.dir/__/__/__/gecko_sdk/platform/common/src/sl_status.c.obj
-/usr/bin/arm-none-eabi-ranlib libslcommon.a

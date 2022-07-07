@@ -1,2 +1,0 @@
-/usr/bin/arm-none-eabi-ar qc libmpu.a CMakeFiles/mpu.dir/__/__/__/__/gecko_sdk/platform/service/mpu/src/sl_mpu.c.obj
-/usr/bin/arm-none-eabi-ranlib libmpu.a
