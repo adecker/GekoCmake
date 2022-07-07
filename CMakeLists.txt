@@ -103,28 +103,21 @@ target_link_libraries(
     ${SDK_LOCATION}/platform/radio/rail_lib/autogen/librail_release/librail_config_bgm220pc22hna_gcc.a
     ${SDK_LOCATION}/platform/emdrv/nvm3/lib/libnvm3_CM33_gcc.a
     #Add Required components from SDK
-    emlib
-    cmsis
-    device
     bootloader
-    emdrv
+    cmsis
+    system
+    device
+    device_init
+    hardware
     slcommon
+    emlib
+    emdrv
     power_manager
     rail
-    protocol
-    system
     in_place_ota_dfu
     crypto
-    device_init
+    protocol
     )
-
-
-# Link optional libraries if available
-if (${HAS_HARDWARE})
-    target_link_libraries(${PROJECT_NAME} hardware)
-endif ()
-
-target_link_libraries(${PROJECT_NAME} protocol)
 
 
 ##### Post build #####
