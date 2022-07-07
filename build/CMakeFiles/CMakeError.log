@@ -1,0 +1,162 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/ld: /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/ld: /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /home/ajdecker/ASR/ASR_DT_02/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3f226/fast && /usr/bin/make  -f CMakeFiles/cmTC_3f226.dir/build.make CMakeFiles/cmTC_3f226.dir/build
+make[1]: Entering directory '/home/ajdecker/ASR/ASR_DT_02/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3f226.dir/CMakeCCompilerABI.c.obj
+/usr/bin/arm-none-eabi-gcc   -v -o CMakeFiles/cmTC_3f226.dir/CMakeCCompilerABI.c.obj -c /usr/share/cmake-3.23/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-multilib-list=aprofile,rmprofile --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f226.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_3f226.dir/'
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/cc1 -quiet -v -iprefix /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/ -D__USES_INITFINI__ /usr/share/cmake-3.23/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_3f226.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o /tmp/cclDfyq2.s
+GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (arm-none-eabi)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/sys-include"
+ignoring duplicate directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/include"
+ignoring duplicate directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/include-fixed"
+ignoring nonexistent directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/sys-include"
+ignoring duplicate directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/include
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/include-fixed
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (arm-none-eabi)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bbcc971fe1d982fd7c3c6bbfd8b1bd3d
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f226.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_3f226.dir/'
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/as -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_3f226.dir/CMakeCCompilerABI.c.obj /tmp/cclDfyq2.s
+COMPILER_PATH=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_3f226.dir/CMakeCCompilerABI.c.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_3f226.dir/CMakeCCompilerABI.c.'
+Linking C executable cmTC_3f226
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3f226.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-gcc  -v CMakeFiles/cmTC_3f226.dir/CMakeCCompilerABI.c.obj -o cmTC_3f226 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-multilib-list=aprofile,rmprofile --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+COMPILER_PATH=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_3f226' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_3f226.'
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/collect2 -plugin /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/liblto_plugin.so -plugin-opt=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccv1Zc9t.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -X -o cmTC_3f226 /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/crti.o /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/crtbegin.o /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/crt0.o -L/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1 -L/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc -L/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib CMakeFiles/cmTC_3f226.dir/CMakeCCompilerABI.c.obj --start-group -lgcc -lc --end-group /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/crtend.o /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/crtn.o
+/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/ld: /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_3f226.dir/build.make:99: cmTC_3f226] Error 1
+make[1]: Leaving directory '/home/ajdecker/ASR/ASR_DT_02/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_3f226/fast] Error 2
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: /home/ajdecker/ASR/ASR_DT_02/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_73433/fast && /usr/bin/make  -f CMakeFiles/cmTC_73433.dir/build.make CMakeFiles/cmTC_73433.dir/build
+make[1]: Entering directory '/home/ajdecker/ASR/ASR_DT_02/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_73433.dir/CMakeCXXCompilerABI.cpp.obj
+/usr/bin/arm-none-eabi-g++   -v -o CMakeFiles/cmTC_73433.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-none-eabi-g++
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-multilib-list=aprofile,rmprofile --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_73433.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_73433.dir/'
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/cc1plus -quiet -v -iprefix /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/ -D__USES_INITFINI__ /usr/share/cmake-3.23/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_73433.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -version -o /tmp/ccS3ViYZ.s
+GNU C++17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (arm-none-eabi)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/sys-include"
+ignoring duplicate directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1"
+ignoring duplicate directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1/arm-none-eabi"
+ignoring duplicate directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1/backward"
+ignoring duplicate directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/include"
+ignoring duplicate directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/include-fixed"
+ignoring nonexistent directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/sys-include"
+ignoring duplicate directory "/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1/arm-none-eabi
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include/c++/11.2.1/backward
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/include
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/include-fixed
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/include
+End of search list.
+GNU C++17 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) version 11.2.1 20220111 (arm-none-eabi)
+	compiled by GNU C version 4.8.5 20150623 (Red Hat 4.8.5-44), GMP version 6.2.1, MPFR version 3.1.6, MPC version 1.0.3, isl version isl-0.15-1-g835ea3a-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 9ad272ca4cdc7e8f27d55cab27a14a24
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_73433.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_73433.dir/'
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/as -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_73433.dir/CMakeCXXCompilerABI.cpp.obj /tmp/ccS3ViYZ.s
+COMPILER_PATH=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_73433.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'CMakeFiles/cmTC_73433.dir/CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_73433
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73433.dir/link.txt --verbose=1
+/usr/bin/arm-none-eabi-g++  -v CMakeFiles/cmTC_73433.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_73433 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/arm-none-eabi-g++
+COLLECT_LTO_WRAPPER=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /data/jenkins/workspace/GNU-toolchain/arm-11/src/gcc/configure --target=arm-none-eabi --prefix=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/install// --with-gmp=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-mpfr=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-mpc=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --with-isl=/data/jenkins/workspace/GNU-toolchain/arm-11/build-arm-none-eabi/host-tools --disable-shared --disable-nls --disable-threads --disable-tls --enable-checking=release --enable-languages=c,c++,fortran --with-newlib --with-multilib-list=aprofile,rmprofile --with-pkgversion='GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)' --with-bugurl=https://bugs.linaro.org/
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 11.2.1 20220111 (GNU Toolchain for the Arm Architecture 11.2-2022.02 (arm-11.14)) 
+COMPILER_PATH=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/:/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_73433' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t' '-dumpdir' 'cmTC_73433.'
+ /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/collect2 -plugin /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/liblto_plugin.so -plugin-opt=/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../libexec/gcc/arm-none-eabi/11.2.1/lto-wrapper -plugin-opt=-fresolution=/tmp/cc1BW2Ct.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -X -o cmTC_73433 /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/crti.o /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/crtbegin.o /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/crt0.o -L/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1 -L/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc -L/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib CMakeFiles/cmTC_73433.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm --start-group -lgcc -lc --end-group /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/crtend.o /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/crtn.o
+/usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/bin/ld: /usr/share/gcc-arm-11.2-2022.02-x86_64-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/11.2.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+/data/jenkins/workspace/GNU-toolchain/arm-11/src/newlib-cygwin/newlib/libc/stdlib/exit.c:64: undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_73433.dir/build.make:99: cmTC_73433] Error 1
+make[1]: Leaving directory '/home/ajdecker/ASR/ASR_DT_02/build/CMakeFiles/CMakeTmp'
+make: *** [Makefile:127: cmTC_73433/fast] Error 2
+
+
+
+

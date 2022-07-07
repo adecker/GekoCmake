@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libpower_manager.a CMakeFiles/power_manager.dir/__/__/__/__/gecko_sdk/platform/service/power_manager/src/sl_power_manager_debug.c.obj CMakeFiles/power_manager.dir/__/__/__/__/gecko_sdk/platform/service/power_manager/src/sl_power_manager_hal_s2.c.obj CMakeFiles/power_manager.dir/__/__/__/__/gecko_sdk/platform/service/power_manager/src/sl_power_manager.c.obj
+/usr/bin/arm-none-eabi-ranlib libpower_manager.a

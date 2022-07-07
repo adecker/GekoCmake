@@ -1,0 +1,5 @@
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD COMMAND ${OBJCOPY} -O binary ${PROJECT_NAME} ${PROJECT_NAME}.bin)
+
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD COMMAND ${OBJCOPY} -O ihex ${PROJECT_NAME} ${PROJECT_NAME}.hex)
+
+add_custom_command(TARGET ${PROJECT_NAME} POST_BUILD COMMAND arm-none-eabi-size "${PROJECT_NAME}" -A)

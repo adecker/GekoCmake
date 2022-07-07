@@ -1,0 +1,658 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "cmake/geko_sdk_components/emlib/libemlib.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"add_definitions",
+			"include",
+			"target_include_directories",
+			"target_link_libraries"
+		],
+		"files" : 
+		[
+			"cmake/geko_sdk_components/emlib/CMakeLists.txt",
+			"cmake/toolchain/efm32-base.cmake",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 49,
+				"parent" : 2
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 74,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 76,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 80,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 81,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 84,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 77,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 78,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 79,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 82,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 83,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-mcpu=cortex-m33 -mthumb -mfpu=fpv5-sp-d16 -mfloat-abi=hard -std=c99 -Wall -Wextra -Os -fdata-sections -ffunction-sections -fomit-frame-pointer  -mcmse  -g -g"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "BGM220PC22HNA"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BOOTLOADER_APPLOADER=1"
+				},
+				{
+					"backtrace" : 7,
+					"define" : "MBEDTLS_CONFIG_FILE=<mbedtls_config.h>"
+				},
+				{
+					"backtrace" : 8,
+					"define" : "MBEDTLS_PSA_CRYPTO_CONFIG_FILE=<psa_crypto_config.h>"
+				},
+				{
+					"backtrace" : 9,
+					"define" : "SLI_RADIOAES_REQUIRES_MASKING=1"
+				},
+				{
+					"backtrace" : 10,
+					"define" : "SL_APP_PROPERTIES=1"
+				},
+				{
+					"backtrace" : 11,
+					"define" : "SL_BOARD_NAME=\"BRD4314A\""
+				},
+				{
+					"backtrace" : 12,
+					"define" : "SL_BOARD_REV=\"A02\""
+				},
+				{
+					"backtrace" : 13,
+					"define" : "SL_COMPONENT_CATALOG_PRESENT=1"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "SL_RAIL_LIB_MULTIPROTOCOL_SUPPORT=0"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "SL_RAIL_UTIL_PA_CONFIG_HEADER=<sl_rail_util_pa_config.h>"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 16,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/emlib/inc"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/common/inc"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/emlib/host/inc"
+				},
+				{
+					"backtrace" : 16,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/emlib/config"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/Device/SiliconLabs/BGM22/Include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/autogen"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/CMSIS/Core/Include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/bootloader"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/bootloader/api"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/bootloader/communication"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/bootloader/debug"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/bootloader/parser"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/bootloader/security"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/config/sdk"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/emdrv/nvm3/inc"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/emdrv/common/inc"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/common/config"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/hardware/board/inc"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/ajdecker/ASR/ASR_DT_02/gecko_sdk/platform/service/mpu/inc"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"id" : "device::@9c2c0036f19e0d7c7437"
+		}
+	],
+	"id" : "emlib::@58779cd1b39b98ffe74d",
+	"name" : "emlib",
+	"nameOnDisk" : "libemlib.a",
+	"paths" : 
+	{
+		"build" : "cmake/geko_sdk_components/emlib",
+		"source" : "cmake/geko_sdk_components/emlib"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_acmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_adc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_aes.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_burtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_can.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_cmu_fpga.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_cmu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_cryotimer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_crypto.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_csen.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_dac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_dbg.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_dma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_ebi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_emu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_eusart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_gpcrc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_gpio.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_i2c.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_iadc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_idac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_lcd.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_ldma.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_lesense.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_letimer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_leuart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_msc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_opamp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_pcnt.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_pdm.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_prs.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_qspi.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_rmu.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_rtc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_rtcc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_se.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_system.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_timer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_usart.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_vcmp.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_vdac.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/emlib/src/em_wdog.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/common/src/sl_assert.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "gecko_sdk/platform/common/src/sl_slist.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

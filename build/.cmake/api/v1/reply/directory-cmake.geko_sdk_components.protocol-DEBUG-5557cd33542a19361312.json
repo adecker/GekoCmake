@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cmake/geko_sdk_components/protocol",
+		"source" : "cmake/geko_sdk_components/protocol"
+	}
+}

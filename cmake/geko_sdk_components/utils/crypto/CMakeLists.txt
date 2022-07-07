@@ -1,0 +1,86 @@
+project(crypto)
+
+add_library(${PROJECT_NAME} 
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/cipher.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/cipher_wrap.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/constant_time.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/platform.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/platform_util.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_aead.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_cipher.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_client.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_driver_wrappers.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_ecp.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_hash.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_mac.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_rsa.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_se.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_slot_management.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/psa_crypto_storage.c
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library/threading.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src/sl_se_manager.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src/sl_se_manager_attestation.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src/sl_se_manager_cipher.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src/sl_se_manager_entropy.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src/sl_se_manager_hash.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src/sl_se_manager_key_derivation.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src/sl_se_manager_key_handling.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src/sl_se_manager_signature.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src/sl_se_manager_util.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/ba414ep_config.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/ba431_config.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/cryptodma_internal.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/cryptolib_types.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_aes.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_blk_cipher.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_dh_alg.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_ecc_curves.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_ecc_keygen_alg.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_ecdsa_alg.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_hash.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_math.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_memcmp.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_memcpy.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_primitives.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_rng.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src/sx_trng.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_mbedtls_support/src/cryptoacc_aes.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_mbedtls_support/src/cryptoacc_gcm.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_mbedtls_support/src/mbedtls_ccm.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_mbedtls_support/src/mbedtls_cmac.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_mbedtls_support/src/mbedtls_ecdsa_ecdh.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_mbedtls_support/src/sl_mbedtls.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_protocol_crypto/src/sli_protocol_crypto_radioaes.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_protocol_crypto/src/sli_radioaes_management.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/cryptoacc_management.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sl_psa_its_nvm3.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_cryptoacc_transparent_driver_aead.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_cryptoacc_transparent_driver_cipher.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_cryptoacc_transparent_driver_hash.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_cryptoacc_transparent_driver_key_derivation.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_cryptoacc_transparent_driver_key_management.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_cryptoacc_transparent_driver_mac.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_cryptoacc_transparent_driver_signature.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_psa_driver_common.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_psa_driver_init.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_psa_trng.c
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/src/sli_se_version_dependencies.c
+)
+
+target_include_directories(${PROJECT_NAME} PUBLIC
+    ${CMAKE_SOURCE_DIR}/config/sdk
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/include 
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_cryptoacc_library/src 
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_mbedtls_support/config 
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_mbedtls_support/inc 
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/include 
+    ${SDK_LOCATION}/util/third_party/crypto/mbedtls/library 
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/inc
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_psa_driver/inc/public
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/inc 
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/se_manager/src 
+    ${SDK_LOCATION}/util/third_party/crypto/sl_component/sl_protocol_crypto/src
+)
+
+target_link_libraries(${PROJECT_NAME} PUBLIC emlib memory_manager )

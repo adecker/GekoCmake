@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Explorer Kit",
+            "cwd": "${workspaceRoot}",
+            "executable": "${workspaceRoot}/build/dt-asr-02",
+            "request": "launch",
+            "type": "cortex-debug",
+            "serverpath": "/home/ajdecker/JLink_Linux_V766e_x86_64/JLinkGDBServerCLExe",
+            "servertype": "jlink",
+            "device": "BGM220PC22HNA",
+            "interface": "swd",
+            "showDevDebugOutput": "parsed",
+            "runToEntryPoint": "main",
+            "svdFile": "${workspaceRoot}/SVD/BGM220PC22HNA.svd"
+        }
+    ],
+    "compounds": []
+}

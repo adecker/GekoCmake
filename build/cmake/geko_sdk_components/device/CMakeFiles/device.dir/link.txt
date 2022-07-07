@@ -1,0 +1,2 @@
+/usr/bin/arm-none-eabi-ar qc libdevice.a CMakeFiles/device.dir/__/__/__/gecko_sdk/platform/Device/SiliconLabs/BGM22/Source/GCC/startup_bgm22.S.obj CMakeFiles/device.dir/__/__/__/gecko_sdk/platform/Device/SiliconLabs/BGM22/Source/system_bgm22.c.obj CMakeFiles/device.dir/__/__/__/gecko_sdk/platform/Device/SiliconLabs/BGM22/Source/startup_bgm22.c.obj
+/usr/bin/arm-none-eabi-ranlib libdevice.a

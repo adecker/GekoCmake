@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "sl_board_control_config.h": "c",
+        "sl_board_control.h": "c",
+        "sl_device_init_clocks.h": "c",
+        "nvm3_default.h": "c",
+        "sl_mbedtls.h": "c",
+        "threading.h": "c",
+        "config.h": "c",
+        "sl_device_init_hfxo.h": "c"
+    }
+}
